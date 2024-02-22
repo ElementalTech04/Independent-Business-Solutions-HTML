@@ -121,6 +121,12 @@ li {
     padding: 55px 0 75px 0;
 }
 
+.center {
+    margin: auto;
+    width: 100%;
+    text-align: center;
+}
+
 /*===================
     button
 ===================*/
@@ -268,6 +274,10 @@ li {
     width: 100%;
 }
 
+.hero-vid {
+    width: 40vw;
+}
+
 /*===================
     header pages
 ===================*/
@@ -389,6 +399,18 @@ li {
 .our-mission .entry img {
     padding-right: 0;
     padding-left: 40px;
+}
+
+
+/*===================
+    the team
+===================*/
+
+.team-img {
+    width: 150px;
+    height: 200px;
+    object-fit: cover;
+    object-position: 25% 25%;
 }
 
 /*===================
@@ -859,6 +881,9 @@ footer ul li a .fa-whatsapp {
         padding-top: 0;
     }
 
+    .hero-vid {
+        width: 100%;
+    }
 
     .navbar .nav-item .dropdown-menu {
         display: none;
